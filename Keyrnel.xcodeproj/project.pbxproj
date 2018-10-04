@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A299A0E1FD944CD00D7E098 /* CommonCryptoModuleMap */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A299A0F1FD944CD00D7E098 /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */;
+			buildPhases = (
+				1A299A131FD944E200D7E098 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CommonCryptoModuleMap;
+			productName = CommonCryptoModuleMap;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A0517DE1F0A367100D24606 /* Keyrnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0517D41F0A367100D24606 /* Keyrnel.framework */; };
+		1A0517E31F0A367100D24606 /* KeyrnelSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0517E21F0A367100D24606 /* KeyrnelSwiftTests.swift */; };
+		1A0517E51F0A367100D24606 /* KeyrnelSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0517D71F0A367100D24606 /* KeyrnelSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0517FF1F0A370B00D24606 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0517FE1F0A370B00D24606 /* DictionaryTests.swift */; };
+		1A0518071F0A371900D24606 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518001F0A371900D24606 /* Dictionary.swift */; };
+		1A0518081F0A371900D24606 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518011F0A371900D24606 /* Sequence.swift */; };
+		1A0518091F0A371900D24606 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518021F0A371900D24606 /* String.swift */; };
+		1A05180A1F0A371900D24606 /* UICollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518031F0A371900D24606 /* UICollection.swift */; };
+		1A05180B1F0A371900D24606 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518041F0A371900D24606 /* UILabel.swift */; };
+		1A05180C1F0A371900D24606 /* UIToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518051F0A371900D24606 /* UIToolbar.swift */; };
+		1A05180D1F0A371900D24606 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518061F0A371900D24606 /* UIView.swift */; };
+		1A05180F1F0A40B500D24606 /* SequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A05180E1F0A40B500D24606 /* SequenceTests.swift */; };
+		1A0518111F0A41F900D24606 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518101F0A41F900D24606 /* StringTests.swift */; };
+		1A0518141F0A470F00D24606 /* UICollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518131F0A470F00D24606 /* UICollectionTests.swift */; };
+		1A0518161F0A48E800D24606 /* UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518151F0A48E800D24606 /* UILabelTests.swift */; };
+		1A0518181F0A4B0700D24606 /* UIToolbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518171F0A4B0700D24606 /* UIToolbarTests.swift */; };
+		1A05181A1F0A4BC300D24606 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518191F0A4BC300D24606 /* UIViewTests.swift */; };
+		1A0518411F0AA08000D24606 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518401F0AA08000D24606 /* Array.swift */; };
+		1A0518431F0AA0BF00D24606 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518421F0AA0BF00D24606 /* ArrayTests.swift */; };
+		1A0518A61F0B93D800D24606 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518A51F0B93D800D24606 /* DispatchQueue.swift */; };
+		1A0518BD1F0CE05500D24606 /* DispatchQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0518BC1F0CE05400D24606 /* DispatchQueueTests.swift */; };
+		1A1EDAB61FE004930000ABBB /* KYMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDAB51FE004930000ABBB /* KYMath.swift */; };
+		1A1EDAB91FE0059B0000ABBB /* KYMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDAB81FE0059B0000ABBB /* KYMathTests.swift */; };
+		1A1EDABC1FE00A040000ABBB /* KYUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDABB1FE00A040000ABBB /* KYUserDefaults.swift */; };
+		1A1EDABE1FE00CF60000ABBB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDABD1FE00CF60000ABBB /* UIDevice.swift */; };
+		1A1EDAC01FE017810000ABBB /* UIDeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDABF1FE017810000ABBB /* UIDeviceTests.swift */; };
+		1A1EDAC31FE018BE0000ABBB /* KYUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDAC21FE018BE0000ABBB /* KYUserDefaultsTests.swift */; };
+		1A1F0C181FE03F6E00E79AE4 /* KYURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0C141FE03F6D00E79AE4 /* KYURLRequest.swift */; };
+		1A1F0C191FE03F6E00E79AE4 /* KYHTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0C151FE03F6D00E79AE4 /* KYHTTPHelper.swift */; };
+		1A1F0C1B1FE03F6E00E79AE4 /* KYHTTPDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0C171FE03F6E00E79AE4 /* KYHTTPDelegate.swift */; };
+		1A1F0C1D1FE03F8600E79AE4 /* KYHTTPCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0C1C1FE03F8600E79AE4 /* KYHTTPCore.swift */; };
+		1A1F0C201FE1362100E79AE4 /* KYHTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F0C1F1FE1362100E79AE4 /* KYHTTPTests.swift */; };
+		1A299A081FD93DCB00D7E098 /* KYAES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A299A051FD93DCB00D7E098 /* KYAES.swift */; };
+		1A299A091FD93DCB00D7E098 /* KYEncryptionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A299A061FD93DCB00D7E098 /* KYEncryptionProtocol.swift */; };
+		1A299A0A1FD93DCB00D7E098 /* KYBaseConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A299A071FD93DCB00D7E098 /* KYBaseConverterProtocol.swift */; };
+		1A2EEC7C1FDFDE4200529834 /* KYBase64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EEC7B1FDFDE4200529834 /* KYBase64Tests.swift */; };
+		1A5E8D5C1F34C12700F37EF0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E8D5B1F34C12700F37EF0 /* UIViewController.swift */; };
+		1A5F202C1FEA73780056E80E /* KYScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F202B1FEA73780056E80E /* KYScrollViewTests.swift */; };
+		1A6EABA01FDEBA8E0083A7CC /* KYBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EAB9F1FDEBA8E0083A7CC /* KYBase64.swift */; };
+		1A6EABA31FDEC1700083A7CC /* KYAESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EABA21FDEC1700083A7CC /* KYAESTests.swift */; };
+		1AA993351FDFDA8B001C0A8E /* BadConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA993341FDFDA8B001C0A8E /* BadConvertor.swift */; };
+		1AC8F2AB2077B9C50046F946 /* EnumCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8F2AA2077B9C50046F946 /* EnumCollection.swift */; };
+		1ADD048B1FB0720F004F2FB7 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD048A1FB0720F004F2FB7 /* UIImageTests.swift */; };
+		1ADD048D1FB07379004F2FB7 /* UIViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD048C1FB07379004F2FB7 /* UIViewControllerTests.swift */; };
+		1AE712E41FE2800900FE5F5B /* KYScrollViewParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE712E31FE2800900FE5F5B /* KYScrollViewParentView.swift */; };
+		1AE712E61FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE712E51FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift */; };
+		1AE712E81FE28BB000FE5F5B /* KYPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE712E71FE28BB000FE5F5B /* KYPageScrollView.swift */; };
+		1AEC86A31F54799D0034CF84 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC86A21F54799D0034CF84 /* UIImage.swift */; };
+		F55330D71FE94ABD00042AF1 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55330D61FE94ABD00042AF1 /* UIButton.swift */; };
+		F55330D91FE94B9400042AF1 /* UIButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55330D81FE94B9400042AF1 /* UIButtonTest.swift */; };
+		F5BDAB4B212C2D1500442BBB /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB4A212C2D1500442BBB /* UITextView.swift */; };
+		F5BDAB4D212C2D7700442BBB /* UITextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB4C212C2D7700442BBB /* UITextViewTests.swift */; };
+		F5CCF97B203B0FA1005E4B76 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCF97A203B0FA1005E4B76 /* UITextField.swift */; };
+		F5CCF97D203B10EE005E4B76 /* UITextFieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CCF97C203B10EE005E4B76 /* UITextFieldText.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0517DF1F0A367100D24606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0517CB1F0A367100D24606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0517D31F0A367100D24606;
+			remoteInfo = KeyrnelSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0517D41F0A367100D24606 /* Keyrnel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keyrnel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0517D71F0A367100D24606 /* KeyrnelSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyrnelSwift.h; sourceTree = "<group>"; };
+		1A0517D81F0A367100D24606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0517DD1F0A367100D24606 /* KeyrnelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyrnelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0517E21F0A367100D24606 /* KeyrnelSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyrnelSwiftTests.swift; sourceTree = "<group>"; };
+		1A0517E41F0A367100D24606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0517FE1F0A370B00D24606 /* DictionaryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		1A0518001F0A371900D24606 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		1A0518011F0A371900D24606 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		1A0518021F0A371900D24606 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1A0518031F0A371900D24606 /* UICollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollection.swift; sourceTree = "<group>"; };
+		1A0518041F0A371900D24606 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		1A0518051F0A371900D24606 /* UIToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIToolbar.swift; sourceTree = "<group>"; };
+		1A0518061F0A371900D24606 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		1A05180E1F0A40B500D24606 /* SequenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTests.swift; sourceTree = "<group>"; };
+		1A0518101F0A41F900D24606 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		1A0518131F0A470F00D24606 /* UICollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionTests.swift; sourceTree = "<group>"; };
+		1A0518151F0A48E800D24606 /* UILabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
+		1A0518171F0A4B0700D24606 /* UIToolbarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIToolbarTests.swift; sourceTree = "<group>"; };
+		1A0518191F0A4BC300D24606 /* UIViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
+		1A0518401F0AA08000D24606 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		1A0518421F0AA0BF00D24606 /* ArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		1A0518A51F0B93D800D24606 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		1A0518BC1F0CE05400D24606 /* DispatchQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueTests.swift; sourceTree = "<group>"; };
+		1A1EDAB51FE004930000ABBB /* KYMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYMath.swift; sourceTree = "<group>"; };
+		1A1EDAB81FE0059B0000ABBB /* KYMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYMathTests.swift; sourceTree = "<group>"; };
+		1A1EDABB1FE00A040000ABBB /* KYUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUserDefaults.swift; sourceTree = "<group>"; };
+		1A1EDABD1FE00CF60000ABBB /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		1A1EDABF1FE017810000ABBB /* UIDeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceTests.swift; sourceTree = "<group>"; };
+		1A1EDAC21FE018BE0000ABBB /* KYUserDefaultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYUserDefaultsTests.swift; sourceTree = "<group>"; };
+		1A1F0C141FE03F6D00E79AE4 /* KYURLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYURLRequest.swift; sourceTree = "<group>"; };
+		1A1F0C151FE03F6D00E79AE4 /* KYHTTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYHTTPHelper.swift; sourceTree = "<group>"; };
+		1A1F0C171FE03F6E00E79AE4 /* KYHTTPDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYHTTPDelegate.swift; sourceTree = "<group>"; };
+		1A1F0C1C1FE03F8600E79AE4 /* KYHTTPCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYHTTPCore.swift; sourceTree = "<group>"; };
+		1A1F0C1F1FE1362100E79AE4 /* KYHTTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYHTTPTests.swift; sourceTree = "<group>"; };
+		1A299A051FD93DCB00D7E098 /* KYAES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAES.swift; sourceTree = "<group>"; };
+		1A299A061FD93DCB00D7E098 /* KYEncryptionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEncryptionProtocol.swift; sourceTree = "<group>"; };
+		1A299A071FD93DCB00D7E098 /* KYBaseConverterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBaseConverterProtocol.swift; sourceTree = "<group>"; };
+		1A2EEC7B1FDFDE4200529834 /* KYBase64Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBase64Tests.swift; sourceTree = "<group>"; };
+		1A5E8D5B1F34C12700F37EF0 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		1A5F202B1FEA73780056E80E /* KYScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYScrollViewTests.swift; sourceTree = "<group>"; };
+		1A6EAB9F1FDEBA8E0083A7CC /* KYBase64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYBase64.swift; sourceTree = "<group>"; };
+		1A6EABA21FDEC1700083A7CC /* KYAESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYAESTests.swift; sourceTree = "<group>"; };
+		1AA993341FDFDA8B001C0A8E /* BadConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadConvertor.swift; sourceTree = "<group>"; };
+		1AC8F2AA2077B9C50046F946 /* EnumCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCollection.swift; sourceTree = "<group>"; };
+		1ADD048A1FB0720F004F2FB7 /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
+		1ADD048C1FB07379004F2FB7 /* UIViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerTests.swift; sourceTree = "<group>"; };
+		1AE712E31FE2800900FE5F5B /* KYScrollViewParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYScrollViewParentView.swift; sourceTree = "<group>"; };
+		1AE712E51FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYScrollViewPrivateDelegate.swift; sourceTree = "<group>"; };
+		1AE712E71FE28BB000FE5F5B /* KYPageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYPageScrollView.swift; sourceTree = "<group>"; };
+		1AEC86A21F54799D0034CF84 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		F55330D61FE94ABD00042AF1 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		F55330D81FE94B9400042AF1 /* UIButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonTest.swift; sourceTree = "<group>"; };
+		F5BDAB4A212C2D1500442BBB /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		F5BDAB4C212C2D7700442BBB /* UITextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewTests.swift; sourceTree = "<group>"; };
+		F5CCF97A203B0FA1005E4B76 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		F5CCF97C203B10EE005E4B76 /* UITextFieldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldText.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0517D01F0A367100D24606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0517DA1F0A367100D24606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0517DE1F0A367100D24606 /* Keyrnel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0517CA1F0A367100D24606 = {
+			isa = PBXGroup;
+			children = (
+				1A0517D61F0A367100D24606 /* Keyrnel */,
+				1A0517E11F0A367100D24606 /* KeyrnelTests */,
+				1A0517D51F0A367100D24606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0517D51F0A367100D24606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A0517D41F0A367100D24606 /* Keyrnel.framework */,
+				1A0517DD1F0A367100D24606 /* KeyrnelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0517D61F0A367100D24606 /* Keyrnel */ = {
+			isa = PBXGroup;
+			children = (
+				1ADD048E1FB092BE004F2FB7 /* Crypto */,
+				1A0517EE1F0A367C00D24606 /* Extensions */,
+				1A1F0C131FE03F5B00E79AE4 /* Networking */,
+				1A1EDABA1FE009BE0000ABBB /* Parameters */,
+				1AE712E11FE27FD800FE5F5B /* UI Objects */,
+				1A1EDAB41FE004770000ABBB /* Utils */,
+				1A0517D81F0A367100D24606 /* Info.plist */,
+				1A0517D71F0A367100D24606 /* KeyrnelSwift.h */,
+			);
+			path = Keyrnel;
+			sourceTree = "<group>";
+		};
+		1A0517E11F0A367100D24606 /* KeyrnelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6EABA11FDEC1230083A7CC /* Crypto */,
+				1A0517FD1F0A369E00D24606 /* Extensions */,
+				1A1F0C1E1FE135EE00E79AE4 /* Networking */,
+				1A1EDAC11FE0189E0000ABBB /* Parameters */,
+				1A5F20291FEA73430056E80E /* UI Objects */,
+				1A1EDAB71FE005820000ABBB /* Utils */,
+				1A0517E41F0A367100D24606 /* Info.plist */,
+				1A0517E21F0A367100D24606 /* KeyrnelSwiftTests.swift */,
+			);
+			path = KeyrnelTests;
+			sourceTree = "<group>";
+		};
+		1A0517EE1F0A367C00D24606 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A0518401F0AA08000D24606 /* Array.swift */,
+				1A1EDABD1FE00CF60000ABBB /* UIDevice.swift */,
+				1A0518001F0A371900D24606 /* Dictionary.swift */,
+				1A0518A51F0B93D800D24606 /* DispatchQueue.swift */,
+				1A0518011F0A371900D24606 /* Sequence.swift */,
+				1A0518021F0A371900D24606 /* String.swift */,
+				1A0518031F0A371900D24606 /* UICollection.swift */,
+				1AEC86A21F54799D0034CF84 /* UIImage.swift */,
+				1A0518041F0A371900D24606 /* UILabel.swift */,
+				F5BDAB4A212C2D1500442BBB /* UITextView.swift */,
+				F5CCF97A203B0FA1005E4B76 /* UITextField.swift */,
+				F55330D61FE94ABD00042AF1 /* UIButton.swift */,
+				1A0518051F0A371900D24606 /* UIToolbar.swift */,
+				1A0518061F0A371900D24606 /* UIView.swift */,
+				1A5E8D5B1F34C12700F37EF0 /* UIViewController.swift */,
+				1AC8F2AA2077B9C50046F946 /* EnumCollection.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A0517FD1F0A369E00D24606 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A0518421F0AA0BF00D24606 /* ArrayTests.swift */,
+				1A0517FE1F0A370B00D24606 /* DictionaryTests.swift */,
+				1A0518BC1F0CE05400D24606 /* DispatchQueueTests.swift */,
+				1A05180E1F0A40B500D24606 /* SequenceTests.swift */,
+				1A0518101F0A41F900D24606 /* StringTests.swift */,
+				1A0518131F0A470F00D24606 /* UICollectionTests.swift */,
+				1ADD048A1FB0720F004F2FB7 /* UIImageTests.swift */,
+				1A0518151F0A48E800D24606 /* UILabelTests.swift */,
+				F5BDAB4C212C2D7700442BBB /* UITextViewTests.swift */,
+				F5CCF97C203B10EE005E4B76 /* UITextFieldText.swift */,
+				1A0518171F0A4B0700D24606 /* UIToolbarTests.swift */,
+				1ADD048C1FB07379004F2FB7 /* UIViewControllerTests.swift */,
+				F55330D81FE94B9400042AF1 /* UIButtonTest.swift */,
+				1A0518191F0A4BC300D24606 /* UIViewTests.swift */,
+				1A1EDABF1FE017810000ABBB /* UIDeviceTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A1EDAB41FE004770000ABBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EDAB51FE004930000ABBB /* KYMath.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1A1EDAB71FE005820000ABBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EDAB81FE0059B0000ABBB /* KYMathTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1A1EDABA1FE009BE0000ABBB /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EDABB1FE00A040000ABBB /* KYUserDefaults.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		1A1EDAC11FE0189E0000ABBB /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EDAC21FE018BE0000ABBB /* KYUserDefaultsTests.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		1A1F0C131FE03F5B00E79AE4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F0C1C1FE03F8600E79AE4 /* KYHTTPCore.swift */,
+				1A1F0C171FE03F6E00E79AE4 /* KYHTTPDelegate.swift */,
+				1A1F0C151FE03F6D00E79AE4 /* KYHTTPHelper.swift */,
+				1A1F0C141FE03F6D00E79AE4 /* KYURLRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1A1F0C1E1FE135EE00E79AE4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F0C1F1FE1362100E79AE4 /* KYHTTPTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1A5F20291FEA73430056E80E /* UI Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F202A1FEA73510056E80E /* PageScroller */,
+			);
+			path = "UI Objects";
+			sourceTree = "<group>";
+		};
+		1A5F202A1FEA73510056E80E /* PageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F202B1FEA73780056E80E /* KYScrollViewTests.swift */,
+			);
+			path = PageScroller;
+			sourceTree = "<group>";
+		};
+		1A6EABA11FDEC1230083A7CC /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				1A6EABA21FDEC1700083A7CC /* KYAESTests.swift */,
+				1AA993341FDFDA8B001C0A8E /* BadConvertor.swift */,
+				1A2EEC7B1FDFDE4200529834 /* KYBase64Tests.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		1ADD048E1FB092BE004F2FB7 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				1A299A051FD93DCB00D7E098 /* KYAES.swift */,
+				1A299A071FD93DCB00D7E098 /* KYBaseConverterProtocol.swift */,
+				1A299A061FD93DCB00D7E098 /* KYEncryptionProtocol.swift */,
+				1A6EAB9F1FDEBA8E0083A7CC /* KYBase64.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		1AE712E11FE27FD800FE5F5B /* UI Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1AE712E21FE27FE600FE5F5B /* PageScroller */,
+			);
+			path = "UI Objects";
+			sourceTree = "<group>";
+		};
+		1AE712E21FE27FE600FE5F5B /* PageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				1AE712E31FE2800900FE5F5B /* KYScrollViewParentView.swift */,
+				1AE712E51FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift */,
+				1AE712E71FE28BB000FE5F5B /* KYPageScrollView.swift */,
+			);
+			path = PageScroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A0517D11F0A367100D24606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0517E51F0A367100D24606 /* KeyrnelSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A0517D31F0A367100D24606 /* Keyrnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0517E81F0A367100D24606 /* Build configuration list for PBXNativeTarget "Keyrnel" */;
+			buildPhases = (
+				1A0517CF1F0A367100D24606 /* Sources */,
+				1A0517D01F0A367100D24606 /* Frameworks */,
+				1A0517D11F0A367100D24606 /* Headers */,
+				1A0517D21F0A367100D24606 /* Resources */,
+				1A05181B1F0A4DFE00D24606 /* Script TODO/FIXME */,
+				1A05181C1F0A4E2900D24606 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyrnel;
+			productName = KeyrnelSwift;
+			productReference = 1A0517D41F0A367100D24606 /* Keyrnel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A0517DC1F0A367100D24606 /* KeyrnelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0517EB1F0A367100D24606 /* Build configuration list for PBXNativeTarget "KeyrnelTests" */;
+			buildPhases = (
+				1A0517D91F0A367100D24606 /* Sources */,
+				1A0517DA1F0A367100D24606 /* Frameworks */,
+				1A0517DB1F0A367100D24606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0517E01F0A367100D24606 /* PBXTargetDependency */,
+			);
+			name = KeyrnelTests;
+			productName = KeyrnelSwiftTests;
+			productReference = 1A0517DD1F0A367100D24606 /* KeyrnelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0517CB1F0A367100D24606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Keyrus;
+				TargetAttributes = {
+					1A0517D31F0A367100D24606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Manual;
+					};
+					1A0517DC1F0A367100D24606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 56UYYJ857L;
+						ProvisioningStyle = Automatic;
+					};
+					1A299A0E1FD944CD00D7E098 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 56UYYJ857L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A0517CE1F0A367100D24606 /* Build configuration list for PBXProject "Keyrnel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A0517CA1F0A367100D24606;
+			productRefGroup = 1A0517D51F0A367100D24606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0517D31F0A367100D24606 /* Keyrnel */,
+				1A0517DC1F0A367100D24606 /* KeyrnelTests */,
+				1A299A0E1FD944CD00D7E098 /* CommonCryptoModuleMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0517D21F0A367100D24606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0517DB1F0A367100D24606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A05181B1F0A4DFE00D24606 /* Script TODO/FIXME */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Script TODO/FIXME";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:|TODO :|FIXME :\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}/KeyrnelSwift/\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+		1A05181C1F0A4E2900D24606 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		1A299A131FD944E200D7E098 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\nif [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0517CF1F0A367100D24606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0518071F0A371900D24606 /* Dictionary.swift in Sources */,
+				1A1F0C191FE03F6E00E79AE4 /* KYHTTPHelper.swift in Sources */,
+				F5CCF97B203B0FA1005E4B76 /* UITextField.swift in Sources */,
+				1A1EDABE1FE00CF60000ABBB /* UIDevice.swift in Sources */,
+				1AC8F2AB2077B9C50046F946 /* EnumCollection.swift in Sources */,
+				1A0518091F0A371900D24606 /* String.swift in Sources */,
+				1A0518081F0A371900D24606 /* Sequence.swift in Sources */,
+				F5BDAB4B212C2D1500442BBB /* UITextView.swift in Sources */,
+				1A0518A61F0B93D800D24606 /* DispatchQueue.swift in Sources */,
+				1AEC86A31F54799D0034CF84 /* UIImage.swift in Sources */,
+				1A1EDAB61FE004930000ABBB /* KYMath.swift in Sources */,
+				1AE712E61FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift in Sources */,
+				1A299A091FD93DCB00D7E098 /* KYEncryptionProtocol.swift in Sources */,
+				1A5E8D5C1F34C12700F37EF0 /* UIViewController.swift in Sources */,
+				1A299A081FD93DCB00D7E098 /* KYAES.swift in Sources */,
+				F55330D71FE94ABD00042AF1 /* UIButton.swift in Sources */,
+				1A05180C1F0A371900D24606 /* UIToolbar.swift in Sources */,
+				1A05180A1F0A371900D24606 /* UICollection.swift in Sources */,
+				1A0518411F0AA08000D24606 /* Array.swift in Sources */,
+				1A299A0A1FD93DCB00D7E098 /* KYBaseConverterProtocol.swift in Sources */,
+				1A1F0C1B1FE03F6E00E79AE4 /* KYHTTPDelegate.swift in Sources */,
+				1A1F0C181FE03F6E00E79AE4 /* KYURLRequest.swift in Sources */,
+				1AE712E41FE2800900FE5F5B /* KYScrollViewParentView.swift in Sources */,
+				1AE712E81FE28BB000FE5F5B /* KYPageScrollView.swift in Sources */,
+				1A6EABA01FDEBA8E0083A7CC /* KYBase64.swift in Sources */,
+				1A1EDABC1FE00A040000ABBB /* KYUserDefaults.swift in Sources */,
+				1A05180D1F0A371900D24606 /* UIView.swift in Sources */,
+				1A1F0C1D1FE03F8600E79AE4 /* KYHTTPCore.swift in Sources */,
+				1A05180B1F0A371900D24606 /* UILabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0517D91F0A367100D24606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1EDAC31FE018BE0000ABBB /* KYUserDefaultsTests.swift in Sources */,
+				1A5F202C1FEA73780056E80E /* KYScrollViewTests.swift in Sources */,
+				1A0518431F0AA0BF00D24606 /* ArrayTests.swift in Sources */,
+				1A05181A1F0A4BC300D24606 /* UIViewTests.swift in Sources */,
+				1AA993351FDFDA8B001C0A8E /* BadConvertor.swift in Sources */,
+				1ADD048D1FB07379004F2FB7 /* UIViewControllerTests.swift in Sources */,
+				1A6EABA31FDEC1700083A7CC /* KYAESTests.swift in Sources */,
+				1A0517E31F0A367100D24606 /* KeyrnelSwiftTests.swift in Sources */,
+				1A0517FF1F0A370B00D24606 /* DictionaryTests.swift in Sources */,
+				F55330D91FE94B9400042AF1 /* UIButtonTest.swift in Sources */,
+				1A1EDAC01FE017810000ABBB /* UIDeviceTests.swift in Sources */,
+				1ADD048B1FB0720F004F2FB7 /* UIImageTests.swift in Sources */,
+				1A0518111F0A41F900D24606 /* StringTests.swift in Sources */,
+				1A05180F1F0A40B500D24606 /* SequenceTests.swift in Sources */,
+				1A0518161F0A48E800D24606 /* UILabelTests.swift in Sources */,
+				1A0518141F0A470F00D24606 /* UICollectionTests.swift in Sources */,
+				1A0518181F0A4B0700D24606 /* UIToolbarTests.swift in Sources */,
+				F5BDAB4D212C2D7700442BBB /* UITextViewTests.swift in Sources */,
+				1A1F0C201FE1362100E79AE4 /* KYHTTPTests.swift in Sources */,
+				1A1EDAB91FE0059B0000ABBB /* KYMathTests.swift in Sources */,
+				1A0518BD1F0CE05500D24606 /* DispatchQueueTests.swift in Sources */,
+				F5CCF97D203B10EE005E4B76 /* UITextFieldText.swift in Sources */,
+				1A2EEC7C1FDFDE4200529834 /* KYBase64Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0517E01F0A367100D24606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0517D31F0A367100D24606 /* Keyrnel */;
+			targetProxy = 1A0517DF1F0A367100D24606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A0517E61F0A367100D24606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A0517E71F0A367100D24606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A0517E91F0A367100D24606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap",
+				);
+				INFOPLIST_FILE = Keyrnel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.keyrnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CommonCrypto";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1A0517EA1F0A367100D24606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap",
+				);
+				INFOPLIST_FILE = Keyrnel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.keyrnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CommonCrypto";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1A0517EC1F0A367100D24606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				INFOPLIST_FILE = KeyrnelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.KeyrnelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1A0517ED1F0A367100D24606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				INFOPLIST_FILE = KeyrnelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.KeyrnelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1A1BF0551F6FECF2001F294C /* Qualif */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Qualif;
+		};
+		1A1BF0561F6FECF2001F294C /* Qualif */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap",
+				);
+				INFOPLIST_FILE = Keyrnel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.keyrnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CommonCrypto";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Qualif;
+		};
+		1A1BF0571F6FECF2001F294C /* Qualif */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				INFOPLIST_FILE = KeyrnelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyrus.KeyrnelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Qualif;
+		};
+		1A299A101FD944CD00D7E098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A299A111FD944CD00D7E098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A299A121FD944CD00D7E098 /* Qualif */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UYYJ857L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Qualif;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0517CE1F0A367100D24606 /* Build configuration list for PBXProject "Keyrnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0517E61F0A367100D24606 /* Debug */,
+				1A0517E71F0A367100D24606 /* Release */,
+				1A1BF0551F6FECF2001F294C /* Qualif */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0517E81F0A367100D24606 /* Build configuration list for PBXNativeTarget "Keyrnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0517E91F0A367100D24606 /* Debug */,
+				1A0517EA1F0A367100D24606 /* Release */,
+				1A1BF0561F6FECF2001F294C /* Qualif */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0517EB1F0A367100D24606 /* Build configuration list for PBXNativeTarget "KeyrnelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0517EC1F0A367100D24606 /* Debug */,
+				1A0517ED1F0A367100D24606 /* Release */,
+				1A1BF0571F6FECF2001F294C /* Qualif */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A299A0F1FD944CD00D7E098 /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A299A101FD944CD00D7E098 /* Debug */,
+				1A299A111FD944CD00D7E098 /* Release */,
+				1A299A121FD944CD00D7E098 /* Qualif */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0517CB1F0A367100D24606 /* Project object */;
+}
