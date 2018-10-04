@@ -2,7 +2,7 @@
 [![version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/keyrusrocks/Keyrnel-iOS/releases) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Keyrnel is a framework developed by [Keyrus](www.keyrus.com) to make easier and faster the creation and the development of iOS Apps.
-The same framework exists for Android developments : [Keyrnel Android](https://github.com/keyrusrocks/Keyrnel-Android-)
+The same framework exists for Android developments : [Keyrnel Android](https://github.com/keyrusrocks/Keyrnel-Android)
 
 ***
 # Installation with Cartage
