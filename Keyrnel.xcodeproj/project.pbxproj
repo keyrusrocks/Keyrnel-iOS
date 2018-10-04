@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1A299A0E1FD944CD00D7E098 /* CommonCryptoModuleMap */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1A299A0F1FD944CD00D7E098 /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */;
-			buildPhases = (
-				1A299A131FD944E200D7E098 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = CommonCryptoModuleMap;
-			productName = CommonCryptoModuleMap;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		1A0517DE1F0A367100D24606 /* Keyrnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0517D41F0A367100D24606 /* Keyrnel.framework */; };
 		1A0517E31F0A367100D24606 /* KeyrnelSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0517E21F0A367100D24606 /* KeyrnelSwiftTests.swift */; };
@@ -437,11 +423,6 @@
 						DevelopmentTeam = 56UYYJ857L;
 						ProvisioningStyle = Automatic;
 					};
-					1A299A0E1FD944CD00D7E098 = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 56UYYJ857L;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 1A0517CE1F0A367100D24606 /* Build configuration list for PBXProject "Keyrnel" */;
@@ -458,7 +439,6 @@
 			targets = (
 				1A0517D31F0A367100D24606 /* Keyrnel */,
 				1A0517DC1F0A367100D24606 /* KeyrnelTests */,
-				1A299A0E1FD944CD00D7E098 /* CommonCryptoModuleMap */,
 			);
 		};
 /* End PBXProject section */
@@ -508,19 +488,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		1A299A131FD944E200D7E098 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This if-statement means we'll only run the main script if the CommonCryptoModuleMap directory doesn't exist\n# Because otherwise the rest of the script causes a full recompile for anything where CommonCrypto is a dependency\n# Do a \"Clean Build Folder\" to remove this directory and trigger the rest of the script to run\nif [ -d \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\" ]; then\necho \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap directory already exists, so skipping the rest of the script.\"\nexit 0\nfi\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap\"\ncat <<EOF > \"${BUILT_PRODUCTS_DIR}/CommonCryptoModuleMap/module.modulemap\"\nmodule CommonCrypto [system] {\n    header \"${SDKROOT}/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nEOF";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -907,33 +874,6 @@
 			};
 			name = Qualif;
 		};
-		1A299A101FD944CD00D7E098 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 56UYYJ857L;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		1A299A111FD944CD00D7E098 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 56UYYJ857L;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		1A299A121FD944CD00D7E098 /* Qualif */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 56UYYJ857L;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Qualif;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -963,16 +903,6 @@
 				1A0517EC1F0A367100D24606 /* Debug */,
 				1A0517ED1F0A367100D24606 /* Release */,
 				1A1BF0571F6FECF2001F294C /* Qualif */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A299A0F1FD944CD00D7E098 /* Build configuration list for PBXAggregateTarget "CommonCryptoModuleMap" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A299A101FD944CD00D7E098 /* Debug */,
-				1A299A111FD944CD00D7E098 /* Release */,
-				1A299A121FD944CD00D7E098 /* Qualif */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
