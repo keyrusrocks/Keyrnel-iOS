@@ -1,14 +1,19 @@
-# Keyrnel Swift iOS
+# Keyrnel iOS 
+[![version](https://img.shields.io/badge/version-1.0-blue.svg)](https://semver.org) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 Keyrnel is a framework developed by [Keyrus](www.keyrus.com) to make easier and faster the creation and the development of iOS Apps.
-
-The same framework exists for Android developments : [LINK TO ANDROID REPO]
-
-This framework is an open source framework powered by [GPL LICENCE USE FOR PROJECT].
+The same framework exists for Android developments : [Keyrnel Android](https://github.com/keyrusrocks/Keyrnel-Android-)
 
 ***
-# Installation
+# Installation with Cartage
 
-[installation information]
+In your `cartfile`, add the following line :
+
+```
+gitHub "keyrusrocks/Keyrnel-iOS"
+```
+
+Then do a `$carthage update` then drag and drop Keyrnel into your app's Frameworks.
 
 
 ***
@@ -34,4 +39,24 @@ Please ensure that the code coverage is always 100%.
 ***
 # Licence
 
-[Licence information]
+MIT License
+
+Copyright (c) 2018 Keyrus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
