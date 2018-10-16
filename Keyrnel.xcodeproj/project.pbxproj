@@ -55,6 +55,11 @@
 		1AE712E61FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE712E51FE2806D00FE5F5B /* KYScrollViewPrivateDelegate.swift */; };
 		1AE712E81FE28BB000FE5F5B /* KYPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE712E71FE28BB000FE5F5B /* KYPageScrollView.swift */; };
 		1AEC86A31F54799D0034CF84 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC86A21F54799D0034CF84 /* UIImage.swift */; };
+		F502CB382175C88700446F7A /* UIView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1A0518061F0A371900D24606 /* UIView.swift */; };
+		F502CB392175C8CB00446F7A /* UILabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1A0518041F0A371900D24606 /* UILabel.swift */; };
+		F502CB3A2175C8CB00446F7A /* UITextView.swift in Headers */ = {isa = PBXBuildFile; fileRef = F5BDAB4A212C2D1500442BBB /* UITextView.swift */; };
+		F502CB3B2175C8CB00446F7A /* UITextField.swift in Headers */ = {isa = PBXBuildFile; fileRef = F5CCF97A203B0FA1005E4B76 /* UITextField.swift */; };
+		F502CB3C2175C8CB00446F7A /* UIButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = F55330D61FE94ABD00042AF1 /* UIButton.swift */; };
 		F55330D71FE94ABD00042AF1 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55330D61FE94ABD00042AF1 /* UIButton.swift */; };
 		F55330D91FE94B9400042AF1 /* UIButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55330D81FE94B9400042AF1 /* UIButtonTest.swift */; };
 		F5BDAB4B212C2D1500442BBB /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDAB4A212C2D1500442BBB /* UITextView.swift */; };
@@ -359,6 +364,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0517E51F0A367100D24606 /* KeyrnelSwift.h in Headers */,
+				F502CB392175C8CB00446F7A /* UILabel.swift in Headers */,
+				F502CB3A2175C8CB00446F7A /* UITextView.swift in Headers */,
+				F502CB3B2175C8CB00446F7A /* UITextField.swift in Headers */,
+				F502CB3C2175C8CB00446F7A /* UIButton.swift in Headers */,
+				F502CB382175C88700446F7A /* UIView.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
